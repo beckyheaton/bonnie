@@ -1,0 +1,16 @@
+
+body {
+    min-height: 100vh;
+    margin: 0; 
+    overflow: hidden; 
+    font-size: 50px;
+    color: rgb(254, 254, 252); 
+    background: url('assets/greenRock.jpg') center/cover no-repeat;   
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
