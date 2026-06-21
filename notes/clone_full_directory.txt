@@ -1,0 +1,22 @@
+
+
+# Download a copy of the repo to your computer
+git clone https://github.com/beckyheaton/bonnie.git
+
+# Move into the repo folder
+cd bonnie
+
+# See which files have changed
+git status
+
+# See the exact line-by-line changes
+git diff
+
+# Stage all changed files for commit
+git add .
+
+# Save a snapshot of your staged changes with a message
+git commit -m "Describe what you changed"
+
+# Upload your commits to GitHub
+git push origin main
