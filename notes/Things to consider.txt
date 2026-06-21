@@ -1,0 +1,53 @@
+Things to consider:
+
+- Maintenance
+	- I will not maintain it, but i can teach you how
+
+- What pages
+	- home page
+	- artwork pages?
+	- Info page
+	- CV?
+
+- Where to store assets
+	- GitHub 
+		- Small images and videos only
+	- vimeo 
+		- For videos
+	- are.na
+		- if you never rename or re-organise it
+		- Lik could break
+	- some other place
+	- https://cloudinary.com/pricing …
+		- you make your own account
+
+- Anything you don't want
+	- Tell me this later
+
+What you need to do:
+	
+	- Make a GitHub account
+	- Write a list of all the artworks you want on there with 
+		- Date
+		- Location
+		- Name
+		- Description
+		- Image / video 
+		- Link
+	- Send through assets
+		- Background
+		- Audio
+		- Videos 
+		- Gifs	
+		- CV pdf or link
+	- Send through text
+		- Bio
+		- Contact info
+		- Links 
+			- Instagram
+			- Are.na..
+
+
+
+
+

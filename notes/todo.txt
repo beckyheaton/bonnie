@@ -1,0 +1,73 @@
+PLACEHOLDER DATA → WEBSITE PLAN
+================================
+
+1. Create placeholder artworks
+   - Make one Google Drive folder per fake artwork
+   - Put placeholder assets (images, etc) in each folder
+   - Get the shareable link for each folder
+
+2. Fill out the spreadsheet
+   - One column per placeholder artwork
+   - Paste each Drive folder link in the "Google Drive Folder Link" row
+   - Fill in the rest of the fields (name, type, date, description, etc)
+
+3. Download the assets
+   - Download each Drive folder (as zip or individually)
+   - Keep them somewhere on your computer for now (e.g. a "raw-assets" folder)
+
+4. Write a script: spreadsheet → JSON
+   - Reads the spreadsheet
+   - Outputs an artworks.json file with one object per artwork
+
+5. Write a script: sort assets into your website structure
+   - Matches filenames listed in the spreadsheet (e.g. water.jpg) to the
+     downloaded Drive folders
+   - Copies/renames them into your actual website folder structure
+     (e.g. assets/images/weight-of-water/water.jpg)
+   - Update the JSON with the final paths (or have the script do this automatically)
+
+6. Build the website
+   - Create index.html, style.css, script.js
+   - In script.js, fetch artworks.json and render the artworks
+   - Decide on layout (long scroll / individual pages / grid) — can iterate freely
+     since it's all driven by the JSON
+
+7. Test with placeholder data
+   - Confirm layout, links, images, video/sound embeds all work
+   - Adjust JSON structure now if anything feels awkward — easier to fix
+     before real data arrives
+
+8. Swap in real data later
+   - Send the same spreadsheet template to your friend
+   - When she returns it, repeat steps 3–5 with her real folders/assets
+   - Replace placeholder artworks.json with the real one
+   - Site logic shouldn't need to change
+
+
+THINGS YOU MIGHT BE MISSING
+============================
+
+- Image hosting decision: are you hosting images locally in the repo (e.g.
+  pushed to GitHub) or using an external host (e.g. Cloudinary)? This affects
+  what the final "path" in your JSON looks like. Decide before step 5.
+
+- Naming convention: decide on a consistent slug/id system per artwork now
+  (e.g. "weight-of-water") so folder names, JSON ids, and any URL routing
+  all match up.
+
+- Image sizing/optimisation: placeholder images won't reveal if large
+  images slow down the site. Worth using realistically-sized images now,
+  not tiny test thumbnails.
+
+- Empty/missing fields: some placeholder artworks should deliberately leave
+  some fields blank (no sound link, no publisher, etc) so you can test that
+  your JS handles missing data gracefully — real submissions will be patchy.
+
+- Multiple images per artwork: make sure at least one placeholder artwork
+  has 2-3 images, not just one, so you test that case before it becomes a
+  real problem with real data.
+
+- Backup of the blank spreadsheet template: keep an untouched copy of the
+  blank spreadsheet to send to your friend, separate from the one you're
+  filling with placeholder data.
+</file_text>
