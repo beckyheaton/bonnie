@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bonnie</title>
     <!-- <link rel="icon" href="assets/kelp.gif"> -->
-    <link rel="stylesheet" href="styles.css"> 
+    <link rel="stylesheet" href="styles/styles.css"> 
+    <link rel="stylesheet" href="styles/artworks.css"> 
+
     <script src="scripts/tinkerbellMagicSparkle.js"></script>   
 </head>
 
@@ -15,28 +17,8 @@
     <p>website</p>
 
     <div id="artworks"></div>
-
-    <script>
-        fetch('artwork_indexing/artworks.json')
-            .then(res => res.json())
-            .then(artworks => {
-                const container = document.getElementById('artworks');
-                artworks.forEach(art => {
-                    const div = document.createElement('div');
-                    div.innerHTML = `
-                        <h2>${art.name}</h2>
-                        <p>${art.date ?? ''}</p>
-                        <p>${art.location ?? ''}</p>
-                        <p>${art.description ?? ''}</p>
-                        <img src="${art.thumbnail}" width="200">
-                        <hr>
-                    `;
-                    container.appendChild(div);
-                });
-            });
-    </script>
-
-
+    
+    <script src="scripts/artworks.js"></script>  
 
 </body>
 

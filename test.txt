@@ -1,0 +1,10 @@
+
+
+ok now i want it so that when you click on one of the it takes you to a page for that artwork. What is the best way to do that?
+A new .html file for each page? or is there some other way that people use? I want the way each artwork page to be set out 
+to be determined by the artwork type. 
+video: have a video in the middle of the screen
+sculpture: have the thumbnail image as the main image
+text: have the text file displayed on the page
+for each of them, below the main thing, put the description
+Do not add any style except formatting, as plain as possible
