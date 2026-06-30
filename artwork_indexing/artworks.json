@@ -1,72 +1,149 @@
 [
   {
-    "name": "Meeting",
-    "driveFolder": "https://drive.google.com/drive/folders/1RPpeKomoSrjo8yRX6gBW_TSmVwH5CaE7?usp=drive_link",
-    "type": [
-      "text"
-    ],
-    "date": "2024-11-20",
-    "description": "This is a story about a meeting I walked into at Optus represented by a ruined cathederal.",
-    "location": "Optus, Belrose",
-    "publisher": null,
-    "externalUrl": null,
-    "thumbnail": "assets/artworks/Meeting/castle.jpg",
-    "videoLink": null,
-    "soundLink": null,
-    "documentLink": "assets/artworks/Meeting/knowledgeDecay.txt",
-    "tags": [
-      "castle",
-      "decay",
-      "optus"
-    ],
-    "archive": null,
-    "notes": null,
-    "id": "meeting"
-  },
-  {
-    "name": "Yes",
-    "driveFolder": "https://drive.google.com/drive/folders/1SzbpqiwrxSyGzQwjqXpgU0ej4n4gcvLj?usp=drive_link",
-    "type": [
-      "sculpture"
-    ],
-    "date": "2009-04-01",
-    "description": "Optus employees hanging from the wall. Every employee got a personalised person in the year of 2009.  They called them optee characters. There�s 10,000 of them.",
-    "location": "Optus, Maquarie Park",
-    "publisher": null,
-    "externalUrl": null,
-    "thumbnail": "assets/artworks/Yes/optee2.webp",
-    "videoLink": null,
-    "soundLink": null,
-    "documentLink": null,
-    "tags": [
-      "person",
-      "optus"
-    ],
-    "archive": null,
-    "notes": null,
-    "id": "yes"
-  },
-  {
-    "name": "Faerieland",
-    "driveFolder": "https://drive.google.com/drive/folders/1yO7FnEiEb7Jb4ME2TbcIEcdMXqXSqPXq?usp=drive_link",
+    "name": "I AM A SHAPE. YOU ARE A SHAPE. EVERYONE IS A SHAPE. I AM NOT A SHAPE. ARE YOU A SHAPE?",
+    "driveFolder": "https://drive.google.com/drive/folders/1ck2LG90RM99O9oeVlOTBS0Lz2UmaFYje?usp=drive_link",
     "type": [
       "video"
     ],
-    "date": "2025-03-03",
-    "description": "There was a time that I was so stressed that all I could do was watch this video on my projector. I made myself believe that it was my window because I lived in faerieland and did not go to university nor took exams. Instead I had other problems, better problems, like curses.",
-    "location": "Apartment, Coogee",
+    "dimensions": "5 min, 51 × 40 cm canvas",
+    "date": 2020,
+    "description": "In this work, the essential elements of creativity and identity, exemplified by the sentiment of children’s television shows, are deconstructed to explore the conception of the self. The informative format of an art television show prompts the absorption of paradigms from a young age. We consume to learn, to transform, to create, to satiate, to nourish, and to live. The video itself embodies the act of transformation and creation, materialising abstract experiences through visual and written language. The didactic phrase from Mister Maker, “I am a shape”, is juxtaposed against transforming biological and artistic forms that challenge its ultimatum. Shapes, primary colours, and cells are all foundational elements that can be built upon by the individual to create new meanings against pre-existing conditions. The layered imagery of art, food, biology, and media demonstrate the integral function of signifiers to influence and alter— just as how mark-making is traditionally used to signify. Simultaneously, the rhythmic quality of the work explores how the repetition of utterances and performances reinforce one's identity whether related to gender or other forms of categorisation. The images and soundtrack deteriorate towards the end, reflecting the limited lifespan of structures and media as individuals grow older to question their beliefs and unlearn the past. The work refers to viewer at the end, questioning them but also reinforcing their personal autonomy to define, make and become themselves. Thus, I am not a shape. Are you a shape?",
+    "location": "Exhibited at: UNSW AD Space, Pari Gallery, The Waiting Room Project",
     "publisher": null,
-    "externalUrl": null,
-    "thumbnail": "assets/artworks/Faerieland/forest.jpg",
-    "videoLink": "https://youtu.be/CD7P8_Jb1gU",
+    "externalUrl": "https://pariari.org/glass/",
+    "thumbnail": "assets/artworks/i-am-shape/DSC_4528.jpg",
+    "videoLink": "https://youtu.be/GiIuKOT0TnA?si=fr9Bj1_rNxSLtZa2",
     "soundLink": null,
     "documentLink": null,
-    "tags": [
-      "faerie",
-      "curses"
+    "tags": null,
+    "archive": null,
+    "notes": "Images courtesy of Sarah at Document Photography and Evan Ye",
+    "id": "i-am-shape"
+  },
+  {
+    "name": "西遊記 (Journey to the west)",
+    "driveFolder": "https://drive.google.com/drive/folders/1nyZXf4VUwuN0X2IcxfA_oTT-92ztLUrh?usp=drive_link",
+    "type": [
+      "sculpture"
     ],
+    "dimensions": "20.3 x 20.3 x 20.3cms",
+    "date": 2021,
+    "description": "The box represents the liminal experience of migration and my experience of growing up in a detention centre. Heavy yet fragile, the box confines something \"unreachable\". Subverting the power dynamic to question the value of bureaucratic recognition provided by citizenship, the iconic plastic travel bag is made with fine-art Bullseye glass whilst the contained citizenship paper is cheap window glass. It is a testament to the resilience of diaspora communities, and a love for how objects hold a wealth of histories within.",
+    "location": "Exhibitied at: Verge Gallery, Bellevue Arts Museum, Pittsburgh Glass Center and Houston Center for Contemporary Craft",
+    "publisher": null,
+    "externalUrl": null,
+    "thumbnail": "assets/artworks/journey-to-the-west/Huang-Tg-285(1).jpg",
+    "videoLink": null,
+    "soundLink": null,
+    "documentLink": null,
+    "tags": null,
+    "archive": null,
+    "notes": "Images courtesy of Bullseye Glass",
+    "id": "journey-to-the-west"
+  },
+  {
+    "name": "jesus crucified on the cross",
+    "driveFolder": "https://drive.google.com/drive/folders/1UkT2gW9z1kbJTZtcVXPgd4XdW7Vw2Azy?usp=drive_link",
+    "type": [
+      "sculpture"
+    ],
+    "dimensions": "1800 x 500 mm",
+    "date": 2022,
+    "description": "Where do we find salvation and community? Recognisable items of queer nightlife are crucified to the wall- nailed and bleeding. It is a disembodied attempt to invoke what it would be like to regularly get ready for the club. This work captures the duality between the life-affirming qualities provided by queer nightlife with the underlying physical and emotional pain that is often endured to be a part of it all. Despite being a critique on the way we contort ourselves to fit in, it is also an act of prayer and yearning.",
+    "location": "Exhibited at: Verge Gallery, Pari Galelry",
+    "publisher": null,
+    "externalUrl": null,
+    "thumbnail": "assets/artworks/jesus-crucified-on-the-cross/Verge Jesus Crucified on a Cross 2022.jpg",
+    "videoLink": null,
+    "soundLink": null,
+    "documentLink": null,
+    "tags": null,
     "archive": null,
     "notes": null,
-    "id": "faerieland"
+    "id": "jesus-crucified-on-the-cross"
+  },
+  {
+    "name": "The world appears through a sheet of glass",
+    "driveFolder": "https://drive.google.com/drive/folders/1J6pIG9X0gZsB96GwcUhn9VHXSuHA0Vqn?usp=drive_link",
+    "type": [
+      "sculpture"
+    ],
+    "dimensions": null,
+    "date": 2022,
+    "description": "Upon a discarded window panel, quotidian scenes of suburbia manifest. Personified, it is a still and meditative figure that sits amidst suburbia to simultaneously observe and reflect. Everything that passes by the window is documented, transcribed and engraved into the glass. Inspired by radical graffiti and the indistinct conversations that it creates on inanimate local environments, this work creates conversations between imagery and symbols of suburbia. The window acts as both a barrier and a site of reflection — what do we see through the window? is there a portal that lies beyond the window? where do we stand amongst the window?",
+    "location": "Plexus Kudos, at Abstract Thoughts Gallery",
+    "publisher": null,
+    "externalUrl": null,
+    "thumbnail": "assets/artworks/the-world-appears-through-a-sheet-of-glass/SaveClip.App_652087023_18063294809679796_8961162876319294015_n.jpg",
+    "videoLink": null,
+    "soundLink": null,
+    "documentLink": null,
+    "tags": null,
+    "archive": null,
+    "notes": null,
+    "id": "the-world-appears-through-a-sheet-of-glass"
+  },
+  {
+    "name": "Drain catcher (I dredged up memories of you from the clump of you hair left in the shower drain)",
+    "driveFolder": "https://drive.google.com/drive/folders/1Oepz32ay_kF2EyBRIw1Ihm081JBKOo0m?usp=drive_link",
+    "type": [
+      "sculpture"
+    ],
+    "dimensions": "Dimensions variable",
+    "date": 2023,
+    "description": "Amongst the sticky sinews of time and memory, a sense of absence and longing pervades. This sculptural landscape is an exploration into the textures of both private and collective desire, creating a space of elegiac reflection for people and memories of the past. Here, the idea of archive or library refers to the dismembered domestic and bodily artefacts that amalgamate into one— much like how a clogged drain is a collection of tangible mementos left by people from the past.",
+    "location": "Verge Artbox, Fisher Library",
+    "publisher": null,
+    "externalUrl": "https://www.verge-gallery.net/verge-projects/bonniehuang",
+    "thumbnail": "assets/artworks/drain-catcher/EYoon_Level-2-(close-2).jpg",
+    "videoLink": null,
+    "soundLink": null,
+    "documentLink": null,
+    "tags": null,
+    "archive": null,
+    "notes": "Images courtesy of Estelle Yoon and Jessica Maurer. This project was supported by Parramatta Artist Studios through the PAS Open Digital Residency.",
+    "id": "drain-catcher"
+  },
+  {
+    "name": "Paint me like Napoleon Bonaparte",
+    "driveFolder": "https://drive.google.com/drive/folders/1B3qKXAdS_tlGNs1jsnDLlZ3AGQrB2d_3?usp=drive_link",
+    "type": [
+      "installation"
+    ],
+    "dimensions": "Dimensions variable",
+    "date": 2023,
+    "description": "This work examines the anatomy of power and glory, revealing how ambition and\ndesire for power are historically obstructions to collectivist imaginings. Born out of my\ndesire to see my masculinity reflected with nobility like the portraits that adorn gallery\nwalls, I used drag as my medium to explore the idealised image. The insertion of the\nself into these constructed portraits of poise which reinforce colonial and capitalist\nways of hierarchy do not provide a means to an end. Rather, this artwork invites\ncritique of ego and hierarchy, prompting viewers to question where we see ourselves\nrepresented and how we want to be seen. Ultimately, it is through speculative fictions\nand through the continual act of assemblage and dissemblage that we can find new\nways of being",
+    "location": "Undercurrents, Pari",
+    "publisher": null,
+    "externalUrl": "https://pariari.org/undercurrent",
+    "thumbnail": "assets/artworks/paint-me-like-napoleon-bonaparte/Pari_July 23-11.jpg",
+    "videoLink": null,
+    "soundLink": null,
+    "documentLink": null,
+    "tags": null,
+    "archive": null,
+    "notes": "Images courtesy of Document Photography",
+    "id": "paint-me-like-napoleon-bonaparte"
+  },
+  {
+    "name": "I tried to dig deeper but all that i could find was the taste of metal you left in my mouth,",
+    "driveFolder": "https://drive.google.com/drive/folders/1w_Mkal5HjQ37Dxxmq60dMShsCqYEyP4m?usp=drive_link",
+    "type": [
+      "sculpture"
+    ],
+    "dimensions": "Dimensions variable",
+    "date": 2023,
+    "description": null,
+    "location": "Mantelpiece, Backspace Gallery",
+    "publisher": null,
+    "externalUrl": null,
+    "thumbnail": "assets/artworks/dig-deeper/375331157_18272145310154856_2760746028436012662_n.jpg",
+    "videoLink": null,
+    "soundLink": null,
+    "documentLink": null,
+    "tags": null,
+    "archive": null,
+    "notes": null,
+    "id": "dig-deeper"
   }
 ]

@@ -1,0 +1,7 @@
+
+
+fix background
+
+make artworks look nice
+
+make artwork individual pages work

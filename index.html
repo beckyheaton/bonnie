@@ -14,11 +14,29 @@
 
 <body>
 
-    <p>website</p>
+    <img id="bg-image" src="assets/images/skyLong.jpg" alt="">
 
-    <div id="artworks"></div>
-    
-    <script src="scripts/artworks.js"></script>  
+    <div class="content">
+        <p>website</p>
+
+        <div id="artworks"></div>
+    </div>
+
+    <script src="scripts/artworks.js"></script>
+
+    <script>
+        function resizeBackground() {
+            const bg = document.getElementById('bg-image');
+            document.body.style.minHeight = bg.offsetHeight + 'px';
+        }
+        const bgImg = document.getElementById('bg-image');
+        if (bgImg.complete) {
+            resizeBackground();
+        } else {
+            bgImg.addEventListener('load', resizeBackground);
+        }
+        window.addEventListener('resize', resizeBackground);
+    </script>
 
 </body>
 

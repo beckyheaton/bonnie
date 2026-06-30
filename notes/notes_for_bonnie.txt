@@ -1,0 +1,10 @@
+
+
+- Artwork type in spreadhsheet is just to determine how the artwork will be displayed on the website
+    And also how it will be sorted if you want to do that later
+    i.e. video, writing etc, I've added another row for materials
+    I've guessed some of them but let me know if you'd like to change them
+
+- Google drive folder names
+    Should match exactly the title of the artowork
+    Will make the code much simpler 
