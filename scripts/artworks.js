@@ -3,21 +3,23 @@ fetch('artwork_indexing/artworks.json')
     .then(artworks => {
         const container = document.getElementById('artworks');
 
-        artworks.forEach(art => {
-            const tile = document.createElement('div');
-            tile.className = 'artwork-tile';
+        // newest first
+        const sorted = [...artworks].sort((a, b) => new Date(b.date) - new Date(a.date));
 
-            tile.innerHTML = `
-                <div class="artwork-image-wrap">
-                    <img src="${art.thumbnail}" alt="${art.name}">
-                </div>
-                <p class="artwork-name">${art.name}</p>
+        sorted.forEach(art => {
+            const row = document.createElement('div');
+            row.className = 'artwork-row';
+
+            row.innerHTML = `
+                <span class="artwork-date">${art.date ?? ''}</span>
+                <span class="artwork-name">${art.name}</span>
+                <img class="artwork-icon" src="${art.thumbnail}" alt="">
             `;
 
-            tile.addEventListener('click', () => {
+            row.addEventListener('click', () => {
                 window.location.href = `artwork.html?id=${art.id}`;
             });
 
-            container.appendChild(tile);
+            container.appendChild(row);
         });
     });
