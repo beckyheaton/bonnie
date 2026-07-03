@@ -15,6 +15,12 @@
 <body>
 
     <input type="checkbox" id="view-toggle" hidden>
+    <script>
+        if (window.location.hash === '#showArtworks') {
+            document.getElementById('view-toggle').checked = true;
+            history.replaceState(null, '', window.location.pathname);
+        }
+    </script>
 
     <header>
         <label for="view-toggle" id="view-label">

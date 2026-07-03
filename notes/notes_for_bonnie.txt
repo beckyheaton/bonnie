@@ -8,3 +8,7 @@
 - Google drive folder names
     Should match exactly the title of the artowork
     Will make the code much simpler 
+
+- youtube videos    
+    go into YouTube Studio → that video → Details → check under "More options" or 
+    "Distribution" for an embedding toggle, and enable it.

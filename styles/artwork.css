@@ -1,11 +1,54 @@
-#artwork-page {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 12px;
+body {
+    overflow: auto;
 }
 
-#artwork-page img,
-#artwork-page iframe {
-    max-width: 100%;
+header {
+    position: fixed;
+    top: 30px;
+    left: 30px;
+    right: 30px;
+}
+
+#artwork-page {
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 90px;
+}
+
+#back-arrow {
+    color: inherit;
+    text-decoration: none;
+    font-size: 1.4em;
+}
+
+.artwork-title {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.artwork-content {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.artwork-media {
+    flex: 0 1 50%;
+    max-width: 50%;
+}
+
+.artwork-media img,
+.artwork-media iframe {
+    width: 100%;
+    display: block;
+}
+
+.artwork-media iframe {
+    aspect-ratio: 16 / 9;
+    border: none;
+}
+
+.artwork-description {
+    flex: 1 1 50%;
+    margin: 0;
 }
