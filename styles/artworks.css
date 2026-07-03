@@ -1,10 +1,12 @@
-
-
 /* ── artwork list ─────────────────────────────────────────── */
 
 #artworks {
-    display: flex;
+    display: none;
     flex-direction: column;
+}
+
+#view-toggle:checked ~ #artworks {
+    display: flex;
 }
 
 .artwork-row {
@@ -13,25 +15,17 @@
     justify-content: space-between;
     gap: 16px;
     padding: 14px 8px;
-    border-top: 1px solid #fe4894;
-    background-color: transparent;
+    border-top: 1px solid rgb(255, 247, 0);
     cursor: pointer;
     transition: background-color 0.2s ease;
 }
 
 #artworks .artwork-row:last-child {
-    border-bottom: 1px solid #fe4894;
+    border-bottom: 1px solid rgb(255, 247, 0);
 }
 
 .artwork-row:hover {
-    background-color: rgba(254, 72, 148, 0.12);
-}
-
-.artwork-date,
-.artwork-name {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 13px;
-    color: #fe4894;
+    background-color: rgba(255, 247, 0, 0.304);
 }
 
 .artwork-date {
@@ -46,8 +40,8 @@
 }
 
 .artwork-icon {
-    width: 24px;
-    height: 24px;
+    width: 40px;
+    height: 40px;
     object-fit: cover;
     flex: 0 0 auto;
 }

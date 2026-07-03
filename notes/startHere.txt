@@ -1,7 +1,7 @@
 
 
-fix background
 
-make artworks look nice
 
-make artwork individual pages work
+- add photo to about text
+
+- get individual artwork pages working

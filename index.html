@@ -8,16 +8,36 @@
     <!-- <link rel="icon" href="assets/kelp.gif"> -->
     <link rel="stylesheet" href="styles/styles.css"> 
     <link rel="stylesheet" href="styles/artworks.css"> 
-    <script src="scripts/tinkerbellMagicSparkle.js"></script>   
+    <!-- <script src="scripts/bubbleCursor.js"></script>    -->
+
 </head>
 
 <body>
 
-    <p id="title">website</p>
+    <input type="checkbox" id="view-toggle" hidden>
+
+    <header>
+        <label for="view-toggle" id="view-label">
+            <span class="show-when-about">ARTWORKS</span>
+            <span class="show-when-artworks">ABOUT</span>
+        </label>
+
+        <a href="index.html" id="title">B✿NNIE HUANG</a>
+
+        <button id="theme-toggle"></button>
+    </header>
+
+    <div id="about-text">
+        <p>Bonnie Huang is a gatherer of kerbside trash, textures, and symbols that explore the crevices between the public and private. They work across sculpture, casting and carving processes, image-making, performance, and text, to create installations that foreground our shared languages of intimacy. Informed by an observational process, they digest and subvert commonplace objects, popular culture from the digital realm, and scenes of public architecture to reveal what lies within the chasm of our dreams and how sites of power can be constructed and contested. They're interested in how desire manifests in capitalist structures, perversity, social codes, and how people come together. Underpinning their practice is the search for sacredness and clarity through acts of clownery, rebellion, devotion, and otherness.</p>
+
+        <p>Notable achievements include fbi SMAC 2025 Artist of the Year, USU Creative Awards Prize from Verge Gallery in 2021, and c3West a collaborative public art presentation between ACON and the Museum of Contemporary Art in 2026. Other exhibitions include Schmick Contemporary, Fairfield City Museum & Gallery, and Firstdraft. Community engagement and collaborative process informs the way they move through art-making; as a performer and educator, they have performed and facilitated workshops at Gosford Regional Gallery, Riverside Theatre, Art Gallery of New South Wales, and Biennale of Sydney. Bonnie is currently a studio resident at Parramatta Artist's Studios, Sydney.</p>
+
+        <p>Lives & works across Sydney, on Darug and Gadigal Country</p>
+    </div>
 
     <div id="artworks"></div>
 
-
+    <script src="scripts/theme.js"></script>
     <script src="scripts/artworks.js"></script>
 </body>
 

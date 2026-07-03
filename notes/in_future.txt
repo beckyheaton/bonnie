@@ -1,0 +1,14 @@
+
+
+
+THINGS YOU MIGHT BE MISSING
+============================
+
+- Image hosting decision: are you hosting images locally in the repo (e.g.
+  pushed to GitHub) or using an external host (e.g. Cloudinary)? This affects
+  what the final "path" in your JSON looks like. Decide before step 5.
+
+- Image sizing/optimisation: placeholder images won't reveal if large
+  images slow down the site. Worth using realistically-sized images now,
+  not tiny test thumbnails.
+
